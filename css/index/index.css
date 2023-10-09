@@ -1,5 +1,21 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url(/src/fonts/JetBrainsMono-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
 * {
     padding: 0;
     margin: 0;
 }
 
+body {
+    margin-left: 170px;
+    margin-right: 170px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+    font-size: 35px;
+}
