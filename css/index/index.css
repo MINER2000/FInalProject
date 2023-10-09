@@ -16,6 +16,21 @@ body {
     font-family: 'JetBrains Mono', monospace;
 }
 
-p {
+span {
     font-size: 35px;
+}
+
+header {
+}
+
+ul {
+    margin: 0; /* Обнуляем значение отступов */
+    margin-left: 3%;
+    text-align: center;
+}
+
+ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 70px;
+
 }
