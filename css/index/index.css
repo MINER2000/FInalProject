@@ -21,7 +21,18 @@ span {
 }
 
 header {
+    text-align: center;
+    margin-top: 12.5px;
 }
+
+#header-end {
+    margin-top: 12.5px;
+    border-style: solid;
+}
+
+/* header button {
+    height: 100%;
+} */
 
 ul {
     margin: 0; /* Обнуляем значение отступов */
@@ -33,4 +44,34 @@ ul li {
     display: inline; /* Отображать как строчный элемент */
     margin-right: 70px;
 
+}
+
+footer {
+    background-color: rgb(34, 34, 34);
+    height: 500px;
+}
+
+button {
+    position: absolute;
+    background: none;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#wrapper-menu-icon {
+    left: 180px;
+    top: 45px;
+}
+
+#wrapper-search-icon {
+    top: 35px;
+    right: 260px;
+}
+
+#wrapper-login-icon {
+    right: 180px;
+    top: 38px;
 }

@@ -2,15 +2,20 @@
 <html lang="ru">
 <head>
     <title>Ифно|CТИД</title>
+    <link rel="shortcut icon" href="/src/svg/logo.svg"/>
     <link rel="stylesheet" href="/css/index/index.css">
 </head>
 <body>
     <header>
-        <button><img src="/src/svg/menu.svg" alt="menu" draggable="false"></button>
-        <button><img src="/src/svg/logo-dark.svg" alt="logo" draggable="false"></button>
-        <button><img src="/src/svg/search.svg" alt="search" draggable="false"></button>
-        <button><img src="/src/svg/login.svg" alt="login" draggable="false"></button>
-        <hr>
+        <div>
+            <button id="wrapper-menu-icon"><img src="/src/svg/menu.svg" alt="menu" draggable="false" id="menu-icon"></button>
+            <a href="http://127.0.0.1:5500/html/index/index.html"><img src="/src/svg/logo-dark.svg" alt="logo" draggable="false" id="main-logo"></a>
+            <button id="wrapper-search-icon"><img src="/src/svg/search.svg" alt="search" draggable="false" id="search-icon"></button>
+            <button id="wrapper-login-icon"><img src="/src/svg/login.svg" alt="login" draggable="false" id="login-icon"></button>
+        </div>
+    </header>
+    <hr id="header-end">
+    <nav>
         <ul>
             <li><span>политика</span></li>
             <li><span>в мире</span></li>
@@ -19,7 +24,7 @@
             <li><span>спорт</span></li>
             <li><span>туризм</span></li>
         </ul>
-    </header>
+    </nav>
     <main>
         <h2>главные новости</h2>
         <img src="/src/svg/Exclude.svg" alt="micro-logo">
