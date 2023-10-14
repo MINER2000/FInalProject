@@ -20,6 +20,11 @@ span {
     font-size: 35px;
 }
 
+h2 {
+    color: white;
+    font-weight: 200;
+}
+
 header {
     text-align: center;
     margin-top: 12.5px;
@@ -28,6 +33,21 @@ header {
 #header-end {
     margin-top: 12.5px;
     border-style: solid;
+}
+
+#main-news {
+    background-color: rgba(35, 31, 31, 1);
+    width: 860px;
+    height: 875px;
+    border-radius: 20px;
+}
+
+#main-news div {
+    border-bottom: white solid 1px;
+}
+
+.micro-icon {
+    float: right;
 }
 
 /* header button {
