@@ -42,12 +42,25 @@ header {
     border-radius: 20px;
 }
 
-#main-news div {
+#main-news-header {
     border-bottom: white solid 1px;
+    padding: 10px;
+}
+
+.news-card {
+    width: 850px;
+    height: 250px;
+    background-color: rgba(26, 23, 23, 1);
+}
+
+.news-card a img {
+    float: left;
 }
 
 .micro-icon {
-    float: right;
+    top: 180px;
+    position: absolute;
+    left: 980px;
 }
 
 /* header button {
@@ -67,6 +80,7 @@ ul li {
 }
 
 footer {
+    margin-top: 1000px;
     background-color: rgb(34, 34, 34);
     height: 500px;
 }
