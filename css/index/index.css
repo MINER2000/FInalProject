@@ -20,14 +20,22 @@ span {
     font-size: 35px;
 }
 
-h2 {
+h2{
     color: white;
     font-weight: 200;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
     text-align: center;
     margin-top: 12.5px;
+}
+
+header button {
+    position: absolute;
 }
 
 #header-end {
@@ -38,8 +46,9 @@ header {
 #main-news {
     background-color: rgba(35, 31, 31, 1);
     width: 860px;
-    height: 875px;
+    height: 850px;
     border-radius: 20px;
+    margin-top: 30px;
 }
 
 #main-news-header {
@@ -48,9 +57,10 @@ header {
 }
 
 .news-card {
-    width: 850px;
+    width: 860px;
     height: 250px;
     background-color: rgba(26, 23, 23, 1);
+    border-bottom: white solid 1px;
 }
 
 .news-card a img {
@@ -59,8 +69,24 @@ header {
     border-radius: 20px;
 }
 
+.head-main-news {
+    max-height: 120px;
+    overflow: hidden;
+    border-bottom: solid rgba(50, 50, 50, 1) 1px;
+}
+
+.description-main-news {
+    height: 85px;
+    overflow: hidden;
+    color: gray;
+}
+
+#arrow-left {
+    transform: rotate(180deg);
+}
+
 .micro-icon {
-    top: 180px;
+    top: 162.5px;
     position: absolute;
     left: 980px;
 }
@@ -69,8 +95,13 @@ header {
     height: 100%;
 } */
 
+nav {
+    margin: 15px;
+    display: none;
+}
+
 ul {
-    margin: 0; /* Обнуляем значение отступов */
+    margin: 0; 
     margin-left: 3%;
     text-align: center;
 }
@@ -82,13 +113,16 @@ ul li {
 }
 
 footer {
-    margin-top: 1000px;
+    margin-top: 100px;
     background-color: rgb(34, 34, 34);
-    height: 500px;
+    height: 90px;
+}
+
+footer img {
+    margin-left: 10px;
 }
 
 button {
-    position: absolute;
     background: none;
     border: none;
 }
@@ -110,4 +144,9 @@ button:hover {
 #wrapper-login-icon {
     right: 180px;
     top: 38px;
+}
+
+#wrapper-arrow {
+    float: right;
+    margin: 6px;
 }
