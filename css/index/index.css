@@ -34,10 +34,6 @@ header {
     margin-top: 12.5px;
 }
 
-header button {
-    position: absolute;
-}
-
 #header-end {
     margin-top: 12.5px;
     border-style: solid;
@@ -46,14 +42,21 @@ header button {
 #main-news {
     background-color: rgba(35, 31, 31, 1);
     width: 860px;
-    height: 850px;
     border-radius: 20px;
+    margin: auto;
     margin-top: 30px;
+}
+
+#main-news button {
+    width: 100%;
+    height: 60px;
+    font-size: large;
 }
 
 #main-news-header {
     border-bottom: white solid 1px;
     padding: 10px;
+    display: flex;
 }
 
 .news-card {
@@ -81,41 +84,13 @@ header button {
     color: gray;
 }
 
-#arrow-left {
-    transform: rotate(180deg);
-}
-
 .micro-icon {
-    top: 162.5px;
-    position: absolute;
-    left: 980px;
-}
-
-/* header button {
-    height: 100%;
-} */
-
-nav {
-    margin: 15px;
-    display: none;
-}
-
-ul {
-    margin: 0; 
-    margin-left: 3%;
-    text-align: center;
-}
-
-ul li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 70px;
-
+    margin-left: auto;
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 88px;
     background-color: rgb(34, 34, 34);
-    height: 90px;
 }
 
 footer img {
@@ -129,24 +104,4 @@ button {
 
 button:hover {
     cursor: pointer;
-}
-
-#wrapper-menu-icon {
-    left: 180px;
-    top: 45px;
-}
-
-#wrapper-search-icon {
-    top: 35px;
-    right: 260px;
-}
-
-#wrapper-login-icon {
-    right: 180px;
-    top: 38px;
-}
-
-#wrapper-arrow {
-    float: right;
-    margin: 6px;
 }
